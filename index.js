@@ -1,6 +1,15 @@
 // Spend a minute memorizing the line below
 // Re-write the line of code as best you can from memory
-ReactDOM.render(
-    <ul><li>Thing 1</li><li>Thing 2</li></ul>,
-    document.getElementById("root")
+const navbar = (
+    <nav>
+        <h1>Bob's Bistro</h1>
+        <ul>
+            <li>Menu</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+)
+
+ReactDOM.render(navbar, document.getElementById("root"))
 )
