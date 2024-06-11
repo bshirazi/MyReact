@@ -1,5 +1,8 @@
 // Spend a minute memorizing the line below
 // Re-write the line of code as best you can from memory
+import React from "react"
+import ReactDOM from "react-dom"
+
 const navbar = (
     <nav>
         <h1>Bob's Bistro</h1>
